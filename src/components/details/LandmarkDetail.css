@@ -1,0 +1,44 @@
+.detail {
+    position: relative;
+    top: -150px;
+}
+
+.information {
+    padding: 20px;
+}
+
+.name {
+    text-align: left;
+    font-size: 2em;
+}
+
+.park {
+    display: inline;
+    float: left;
+    color: gray;
+}
+
+.state {
+    display :inline;
+    float: left;
+    padding-left: 50px;
+    color: gray;
+}
+
+.divider {
+    border-top: 1px solid #bbb;
+}
+
+.description {
+    text-align: left;
+    padding: 20px;
+}
+
+.description .about {
+    font-size: 1.5em;
+    padding-bottom: 5px;
+}
+
+.description .text {
+    font-size: 1.3em;
+}

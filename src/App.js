@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import CircleImage from './components/details/CircleImage';
+import LandmakrDetails from './components/details/LandmarkDetail';
+import MapView from './components/details/MapView';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LandmakrDetails name="Turtle Rock" park="Joshua Tree National Park" state="California"/>
     </div>
   );
 }
