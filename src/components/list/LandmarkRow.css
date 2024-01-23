@@ -1,0 +1,17 @@
+.row {
+    text-align: left;
+    padding: 10px;
+}
+
+.row img {
+    display: inline;
+    width: 50px;
+}
+
+.row .row-name {
+    display: inline;
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 5px;
+}
